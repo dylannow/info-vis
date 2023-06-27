@@ -14017,13 +14017,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[210]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="nn">go</span>
 <span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
 <span class="kn">import</span> <span class="nn">plotly.subplots</span> <span class="k">as</span> <span class="nn">sp</span>
+<span class="kn">import</span> <span class="nn">plotly.io</span> <span class="k">as</span> <span class="nn">pio</span>
+<span class="kn">import</span> <span class="nn">plotly.offline</span> <span class="k">as</span> <span class="nn">py</span>
 <span class="kn">from</span> <span class="nn">plotly.subplots</span> <span class="kn">import</span> <span class="n">make_subplots</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">string</span>
@@ -14048,7 +14050,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[211]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">url</span> <span class="o">=</span> <span class="s1">&#39;https://ichef.bbci.co.uk/news/976/cpsprodpb/102FB/production/_124399266_gettyimages-dv1554016.jpg.webp&#39;</span>
@@ -14110,7 +14112,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[212]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;diabetes_binary_health_indicators_BRFSS2015.csv&#39;</span><span class="p">)</span>
@@ -14134,7 +14136,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[213]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">raw_db_turkey</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;train.csv&quot;</span><span class="p">)</span>
@@ -14189,7 +14191,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[214]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data_barchart</span> <span class="o">=</span> <span class="p">{</span>
@@ -14373,7 +14375,7 @@ For analysis of the participants' BMI's in this dataset, they can be aggregated 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[215]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;bmi_qcut&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">qcut</span><span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;BMI&#39;</span><span class="p">],</span> <span class="n">q</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">labels</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -14439,7 +14441,7 @@ For analysis of the participants' BMI's in this dataset, they can be aggregated 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[216]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_bmi_by_income</span> <span class="o">=</span> <span class="n">df1</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Income&#39;</span><span class="p">)[</span><span class="s1">&#39;BMI&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
@@ -14505,7 +14507,7 @@ For analysis of the participants' BMI's in this dataset, they can be aggregated 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[217]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mean_bmi_by_education</span> <span class="o">=</span> <span class="n">df1</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;Education&#39;</span><span class="p">)[</span><span class="s1">&#39;BMI&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
@@ -14580,54 +14582,81 @@ For analysis of the participants' BMI's in this dataset, they can be aggregated 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[218]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">overlap_count</span> <span class="o">=</span> <span class="p">((</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Diabetes_binary&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="n">overlap_count_healthy</span> <span class="o">=</span> <span class="p">((</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Fruits&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Veggies&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="n">overlap_count_unhealthy</span> <span class="o">=</span> <span class="p">((</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;HighChol&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="n">amount_of_smokers</span> <span class="o">=</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-<span class="n">amount_of_nonsmokers</span> <span class="o">=</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">overlap_count</span> <span class="o">=</span> <span class="p">((</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Diabetes_binary&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">overlap_count_healthy</span> <span class="o">=</span> <span class="p">((</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Fruits&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Veggies&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">overlap_count_unhealthy</span> <span class="o">=</span> <span class="p">((</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Fruits&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">0.0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Veggies&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">0.0</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">overlap_count_highcholesterol</span> <span class="o">=</span> <span class="p">((</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;HighChol&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">amount_of_smokers</span> <span class="o">=</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">amount_of_nonsmokers</span> <span class="o">=</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">0.0</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 
+<span class="n">count_healthy</span> <span class="o">=</span> <span class="p">((</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Fruits&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Veggies&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">1.0</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+<span class="n">count_unhealthy</span> <span class="o">=</span> <span class="p">((</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Fruits&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">0.0</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Veggies&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="mf">0.0</span><span class="p">))</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">column1_count</span> <span class="o">=</span> <span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Diabetes_binary&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">column2_count</span> <span class="o">=</span> <span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Fruits&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">column3_count</span> <span class="o">=</span> <span class="n">df1</span><span class="p">[</span><span class="s1">&#39;Smoker&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">column5_count</span> <span class="o">=</span> <span class="n">df1</span><span class="p">[</span><span class="s1">&#39;HighChol&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
-                      
+
 <span class="n">overlap_percentage</span> <span class="o">=</span> <span class="p">(</span><span class="n">overlap_count</span> <span class="o">/</span> <span class="n">column1_count</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
 <span class="n">percentage_smokers</span> <span class="o">=</span> <span class="p">(</span><span class="n">amount_of_smokers</span> <span class="o">/</span> <span class="n">column3_count</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
-<span class="n">overlap_percentage_healthy</span> <span class="o">=</span> <span class="p">(</span><span class="n">overlap_count_healthy</span> <span class="o">/</span> <span class="n">column2_count</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
-<span class="n">overlap_percentage_unhealthy</span> <span class="o">=</span> <span class="p">(</span><span class="n">overlap_count_unhealthy</span> <span class="o">/</span> <span class="n">column5_count</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+<span class="n">overlap_percentage_healthy</span> <span class="o">=</span> <span class="p">(</span><span class="n">overlap_count_healthy</span> <span class="o">/</span> <span class="n">count_healthy</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+<span class="n">overlap_percentage_unhealthy</span> <span class="o">=</span> <span class="p">(</span><span class="n">overlap_count_unhealthy</span> <span class="o">/</span> <span class="n">count_unhealthy</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
+<span class="n">overlap_percentage_highcholesterol</span> <span class="o">=</span> <span class="p">(</span><span class="n">overlap_count_highcholesterol</span> <span class="o">/</span> <span class="n">column5_count</span><span class="p">)</span> <span class="o">*</span> <span class="mi">100</span>
 
+<span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Smokes&quot;</span><span class="p">,</span> <span class="s2">&quot;Does not smoke&quot;</span><span class="p">]</span>
 
-<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span>
-    <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="n">overlap_percentage</span><span class="p">,</span> <span class="mi">100</span><span class="o">-</span><span class="n">overlap_percentage</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Smokes&#39;</span><span class="p">,</span> <span class="s1">&#39;Does not smoke&#39;</span><span class="p">],</span>
-    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Percentage of diabetes patients that smoke&#39;</span>
-<span class="p">)</span>
-<span class="n">fig2</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span>
-    <span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="n">amount_of_smokers</span><span class="p">,</span> <span class="n">amount_of_nonsmokers</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Smokes&#39;</span><span class="p">,</span> <span class="s1">&#39;Does not smoke&#39;</span><span class="p">],</span>
-    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Percentage of all people that smoke&#39;</span>
-<span class="p">)</span>
- 
-<span class="n">fig3</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span>
-    <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="n">overlap_percentage_healthy</span><span class="p">,</span> <span class="mi">100</span> <span class="o">-</span> <span class="n">overlap_percentage_healthy</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Smokes&#39;</span><span class="p">,</span> <span class="s1">&#39;Does not smoke&#39;</span><span class="p">],</span>
-    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Percentage of healthy eaters that smoke&#39;</span>
-<span class="p">)</span>
+<span class="n">specs</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;domain&#39;</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;domain&#39;</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;domain&#39;</span><span class="p">}],</span>
+    <span class="p">[{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;domain&#39;</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;domain&#39;</span><span class="p">},</span> <span class="p">{</span><span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s1">&#39;domain&#39;</span><span class="p">}]</span>
+<span class="p">]</span>
 
-<span class="n">fig4</span> <span class="o">=</span> <span class="n">px</span><span class="o">.</span><span class="n">pie</span><span class="p">(</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">make_subplots</span><span class="p">(</span><span class="n">rows</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">cols</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">specs</span><span class="o">=</span><span class="n">specs</span><span class="p">,</span><span class="n">row_heights</span><span class="o">=</span><span class="p">[</span><span class="mf">0.58</span><span class="p">,</span> <span class="mf">0.42</span><span class="p">],</span> <span class="n">vertical_spacing</span><span class="o">=</span><span class="mf">0.0</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Pie</span><span class="p">(</span>
+    <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span>
     <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="n">overlap_percentage_unhealthy</span><span class="p">,</span> <span class="mi">100</span> <span class="o">-</span> <span class="n">overlap_percentage_unhealthy</span><span class="p">],</span>
-    <span class="n">names</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Smokes&#39;</span><span class="p">,</span> <span class="s1">&#39;Does not smoke&#39;</span><span class="p">],</span>
-    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Percentage of unhealthy eaters that smoke&#39;</span>
+    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Percentage of unhealthy eaters that smoke&#39;</span><span class="p">,</span>
+    <span class="n">title_font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">family</span> <span class="o">=</span> <span class="s2">&quot;Overpass&quot;</span><span class="p">,</span>
+        <span class="n">size</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+        <span class="n">color</span><span class="o">=</span><span class="s2">&quot;black&quot;</span>
+    <span class="p">)</span>
+<span class="p">),</span> <span class="n">row</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Pie</span><span class="p">(</span>
+    <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span>
+    <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="n">amount_of_smokers</span><span class="p">,</span> <span class="n">amount_of_nonsmokers</span><span class="p">],</span>
+    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Percentage of all people that smoke&#39;</span><span class="p">,</span>
+    <span class="n">title_font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">family</span> <span class="o">=</span> <span class="s2">&quot;Overpass&quot;</span><span class="p">,</span>
+        <span class="n">size</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+        <span class="n">color</span><span class="o">=</span><span class="s2">&quot;black&quot;</span>
+    <span class="p">),</span>
+<span class="p">),</span> <span class="n">row</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Pie</span><span class="p">(</span>
+    <span class="n">labels</span><span class="o">=</span><span class="n">labels</span><span class="p">,</span>
+    <span class="n">values</span><span class="o">=</span><span class="p">[</span><span class="n">overlap_percentage_healthy</span><span class="p">,</span> <span class="mi">100</span> <span class="o">-</span> <span class="n">overlap_percentage_healthy</span><span class="p">],</span>
+    <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Percentage of healthy eaters that smoke&#39;</span><span class="p">,</span>
+    <span class="n">title_font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">family</span> <span class="o">=</span> <span class="s2">&quot;Overpass&quot;</span><span class="p">,</span>
+        <span class="n">size</span> <span class="o">=</span> <span class="mi">100</span><span class="p">,</span>
+        <span class="n">color</span><span class="o">=</span><span class="s2">&quot;black&quot;</span>
+    <span class="p">)</span>
+<span class="p">),</span> <span class="n">row</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span>
+    <span class="n">height</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span>
+    <span class="n">width</span><span class="o">=</span><span class="mi">1200</span><span class="p">,</span>
+    <span class="n">font_size</span> <span class="o">=</span> <span class="mi">15</span><span class="p">,</span>
+    
 <span class="p">)</span>
 
+<span class="n">fig</span><span class="o">.</span><span class="n">update_traces</span><span class="p">(</span><span class="n">hoverinfo</span><span class="o">=</span><span class="s2">&quot;label+percent+name&quot;</span><span class="p">)</span>
 
 <span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="n">fig3</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="n">fig4</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
-<span class="n">fig2</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
 </pre></div>
 
      </div>
@@ -14641,39 +14670,6 @@ For analysis of the participants' BMI's in this dataset, they can be aggregated 
 
 
 <div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-
-
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-
-
-</div>
 
 <div class="jp-OutputArea-child">
 
@@ -14718,7 +14714,7 @@ For analysis of the participants' BMI's in this dataset, they can be aggregated 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[219]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">conditions</span> <span class="o">=</span> <span class="p">[</span>
@@ -14763,7 +14759,7 @@ For analysis of the participants' BMI's in this dataset, they can be aggregated 
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[219]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[&nbsp;]:</div>
 
 
 
@@ -14875,7 +14871,7 @@ For analysis of the participants' BMI's in this dataset, they can be aggregated 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[220]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">colors</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;Low&#39;</span><span class="p">:</span> <span class="s1">&#39;blue&#39;</span><span class="p">,</span> <span class="s1">&#39;Low-Medium&#39;</span><span class="p">:</span> <span class="s1">&#39;yellow&#39;</span><span class="p">,</span> <span class="s1">&#39;Medium&#39;</span><span class="p">:</span> <span class="s1">&#39;green&#39;</span><span class="p">,</span> <span class="s1">&#39;Medium-High&#39;</span><span class="p">:</span> <span class="s1">&#39;orange&#39;</span><span class="p">,</span> <span class="s1">&#39;High&#39;</span><span class="p">:</span> <span class="s1">&#39;red&#39;</span><span class="p">}</span>
